@@ -1,0 +1,109 @@
+@font-face {
+	font-family: "Lato-Bold";
+	src: url(../fonts/Lato-Bold.ttf);
+	font-style: normal; 
+}
+
+@font-face {
+	font-family: "Lato-Bold";
+	src: url(../fonts/Lato-Black.ttf);
+	font-style: normal; 
+}
+
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, font, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+ background: transparent;
+ }
+
+ol, ul {
+	list-style: none;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+@media screen and (min-width: 375px) {
+
+    	body {
+		height: 100%;
+	}
+
+	.container {
+		margin: 0 auto;
+		position: relative;
+		height: inherit;
+		max-width: 1020px;
+	}
+	
+	footer {
+		background: #2D303A;
+		position: relative;
+		height: 76px;
+		width: 100%;
+	}
+
+	footer span {
+		display: none;
+	}
+
+	footer ul {
+		position:absolute;
+		width: 164px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: 0 auto;
+	}
+
+	
+}
+
+@media screen and (min-width: 768px) {
+
+    footer {
+		border-top: 6px solid #323746;
+		height: 76px;
+	}
+	
+	footer span {
+		font-family: "Lato-Black", sans-serif;
+		font-size: 13px;
+		font-weight: 900;
+		color: #666D89;
+		display: block;
+		position: absolute;
+		top: 30px;
+		left: 40px;
+	}
+
+	footer ul {
+		width: 164px;
+		top: 22px;
+		right: 28px;
+		bottom: auto;
+		left: auto;
+	}
+}
+@media screen and (min-width: 1020px) {
+    .container {
+		width: 940px;
+		margin: 0 auto;
+	}
+
+
+}
